@@ -23,7 +23,7 @@ browseURL(url) #give the permissions here with the account you want to give perm
 browser()
 
 #here's where you paste in the "code" from the resulting url
-code = '4/ZOzzcwB2o14flSnl_h6y7UyPyWaj.8p9cex0LO3kTuJJVnL49Cc_Wvi_8cQI'
+code = '4/ZOzzcwB2o14flal_h6y7UyPyWaj.8p9cex0LO3kTuJJVnL49Cc_Wvi_8cQI'
 opts = list(verbose=T )
 accesstoken = fromJSON(postForm('https://accounts.google.com/o/oauth2/token', .opts=opts, code=code, client_id=client_id,
          client_secret=client_secret, redirect_uri=redirecturi, grant_type="authorization_code", 
